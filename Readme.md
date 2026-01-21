@@ -17,3 +17,6 @@ iverilog -g2012 -o my_design counter_tb.sv counter.sv
 vvp my_design
 gtkwave test.vcd
 ```
+<img width="417" height="344" alt="image copy" src="https://github.com/user-attachments/assets/68f2957d-d4de-4e07-a56f-124060dd631f" />
+<img width="1065" height="255" alt="image copy 2" src="https://github.com/user-attachments/assets/2836f944-edc8-40e5-b4e6-26586646ebe5" />
+
