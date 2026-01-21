@@ -1,3 +1,4 @@
+## Verilator
 ```
 verilator -f verilator.f --lint-only
 ```
@@ -8,3 +9,11 @@ verilator --binary -f verilator.f --top tb
 ./obj_dir/Vtb
 ```
 <img width="294" height="35" alt="image-1" src="https://github.com/user-attachments/assets/d918c78d-eca6-49ef-bb1a-352feed94e2a" />
+
+## Icarus Verilog
+
+```
+iverilog -g2012 -o my_design counter_tb.sv counter.sv
+vvp my_design
+gtkwave test.vcd
+```
